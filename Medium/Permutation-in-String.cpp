@@ -10,7 +10,7 @@ public:
       int matches = 0;
       if (s1.size() > s2.size())
          return false;
-      vector<int> s1Freq(0, 26), s2Freq(0, 26);
+      vector<int> s1Freq(26), s2Freq(26);
 
       for (int i = 0; i < s1.size(); i++)
       {
