@@ -5,7 +5,7 @@ using namespace std;
 // Either use a hash map for frequencies or a variable maxF that holds the maximum
 // frequency.
 
-/* HASH MAP SOLUTION
+/* HASH MAP SOLUTION O(26n) = O(n)
 class Solution
 {
 public:
@@ -51,7 +51,7 @@ frequency in the hashmap is bigger than k. If it is, our window is not valid, be
 decrement it from the frequency and move our left pointer. Only update result if we find a valid window.
 */
 
-// Variable solution maxF
+// Variable solution maxF O(n)
 class Solution
 {
 public:
